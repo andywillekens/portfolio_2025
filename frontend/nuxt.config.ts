@@ -8,8 +8,12 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()]
   },
+  modules: ['@nuxt/image'],
   css: ['~/assets/styles/main.scss'],
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  plugins: ['~/plugins/setToken.ts']
+  plugins: ['~/plugins/setToken.ts'],
+  image: {
+    dir: 'assets/images'
+  }
 })
