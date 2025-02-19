@@ -8,7 +8,7 @@
   "bracketSpacing": true,
   "bracketSameLine": true,
   "vueIndentScriptAndStyle": true,
-  "tailwindConfig": "./frontend/assets/styles/main.scss",
+  "tailwindConfig": "./frontend/assets/styles/main.css",
   "tailwindPreserveWhitespace": false,
   "tailwindPreserveDuplicates": false
 }

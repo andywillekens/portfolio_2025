@@ -5,15 +5,20 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4
   },
+  compatibilityDate: '2024-11-01',
+  devtools: { enabled: true },
   vite: {
     plugins: [tailwindcss()]
   },
-  modules: ['@nuxt/image'],
-  css: ['~/assets/styles/main.scss'],
-  compatibilityDate: '2024-11-01',
-  devtools: { enabled: true },
-  plugins: ['~/plugins/setToken.ts'],
+  modules: ['@nuxt/image', '@nuxt/icon'],
+  css: ['~/assets/styles/main.css'],
   image: {
     dir: 'assets/images'
-  }
+  },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false
+    }
+  ]
 })
