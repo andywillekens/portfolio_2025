@@ -1,0 +1,14 @@
+{
+  "printWidth": 100,
+  "tabWidth": 2,
+  "tabs": true,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "vueIndentScriptAndStyle": true,
+  "tailwindConfig": "./frontend/assets/styles/main.scss",
+  "tailwindPreserveWhitespace": false,
+  "tailwindPreserveDuplicates": false
+}
