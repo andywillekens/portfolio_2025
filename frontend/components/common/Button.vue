@@ -12,11 +12,11 @@
   const variant = computed(() => {
     switch (props.variant) {
       case 'outline':
-        return 'text-primary-500 border-primary-500 hover:bg-primary-500/10'
+        return 'text-minty-500 border-minty-500 hover:bg-minty-500/10'
       case 'link':
-        return 'text-primary-700 border-transparent !px-0 hover:underline'
+        return 'text-minty-700 border-transparent !px-0 hover:underline'
       default:
-        return 'bg-primary-500 border-primary-500 hover:bg-primary-600 hover:border-primary-600 text-white'
+        return 'bg-minty-400 border-minty-400 hover:bg-minty-500 hover:border-minty-500 text-minty-950'
     }
   })
 

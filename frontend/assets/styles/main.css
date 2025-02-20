@@ -11,17 +11,29 @@
   --font-head: 'Roboto Serif', serif;
   --font-body: 'Mukta', serif;
 
-  --color-primary-50: #eeeeff;
-  --color-primary-100: #e0e1ff;
-  --color-primary-200: #c7c8fe;
-  --color-primary-300: #a5a7fc;
-  --color-primary-400: #8184f8;
-  --color-primary-500: #6366f1;
-  --color-primary-600: #4649e5;
-  --color-primary-700: #383bca;
-  --color-primary-800: #3032a3;
-  --color-primary-900: #2e3081;
-  --color-primary-950: #1b1c4b;
+  --color-purple-50: #eeeeff;
+  --color-purple-100: #e0e1ff;
+  --color-purple-200: #c7c8fe;
+  --color-purple-300: #a5a7fc;
+  --color-purple-400: #8184f8;
+  --color-purple-500: #6366f1;
+  --color-purple-600: #4649e5;
+  --color-purple-700: #383bca;
+  --color-purple-800: #3032a3;
+  --color-purple-900: #2e3081;
+  --color-purple-950: #1b1c4b;
+
+  --color-minty-50: #eefffa;
+  --color-minty-100: #c6fff1;
+  --color-minty-200: #8effe5;
+  --color-minty-300: #4dfbd6;
+  --color-minty-400: #19e8c2;
+  --color-minty-500: #00ccaa;
+  --color-minty-600: #00a48d;
+  --color-minty-700: #028372;
+  --color-minty-800: #08675c;
+  --color-minty-900: #0c554c;
+  --color-minty-950: #003430;
 
   --color-dark: #1c2536;
 }
@@ -29,7 +41,7 @@
 @layer base {
   html,
   body {
-    @apply font-body text-base md:text-lg flex h-auto min-h-screen flex-col text-dark bg-primary-100;
+    @apply font-body text-base md:text-lg flex h-auto min-h-screen flex-col text-dark bg-purple-50;
   }
 
   h1,
@@ -46,18 +58,18 @@
   }
 
   ::selection {
-    @apply bg-primary-200;
+    @apply bg-purple-200;
   }
 }
 
 @utility text-shadow {
-  text-shadow: -2px -2px 0 var(--color-white), 3px 3px 0 var(--color-primary-500);
+  text-shadow: -2px -2px 0 var(--color-white), 3px 3px 0 var(--color-purple-500);
 }
 
 @utility text-shadow-xl {
-  text-shadow: -4px -4px 0 var(--color-white), 6px 6px 0 var(--color-primary-500);
+  text-shadow: -4px -4px 0 var(--color-white), 6px 6px 0 var(--color-purple-500);
 }
 
 @utility design-shadow {
-  box-shadow: -2px -2px 0 2px var(--color-white), 3px 3px 0 3px var(--color-primary-500);
+  box-shadow: -2px -2px 0 2px var(--color-white), 3px 3px 0 3px var(--color-purple-500);
 }
